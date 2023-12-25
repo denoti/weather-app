@@ -12,7 +12,7 @@ const humidity = document.querySelector('.humidity');
 const section = document.querySelector('section');
 
 async function getWeatherInfor(location) {
-  const url = `http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${location}`;
+  const url = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${location}`;
   try {
     const response = await fetch(url);
     if (response.status === 400) {
