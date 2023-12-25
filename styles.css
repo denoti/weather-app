@@ -1,0 +1,72 @@
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  font-family: cursive;
+  background: url(./images/background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  height: 100px;
+}
+.header-image {
+  width: 100px;
+}
+
+.search {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+input {
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 8px;
+  outline: none;
+}
+button {
+  background: rgb(125, 125, 228);
+  border-radius: 5px;
+  font-family: cursive;
+  color: white;
+  width: 100px;
+  font-size: 20px;
+  padding: 4px;
+}
+button:active {
+  transform: scale(0.97);
+}
+
+.hidden {
+  display: none;
+}
+
+section {
+  border-radius: 8px;
+  font-size: 20px;
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.5);
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather-condition {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
